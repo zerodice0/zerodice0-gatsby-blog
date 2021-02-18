@@ -1,49 +1,5 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/0643e551-0fef-4f57-9d3c-29d576f3e06c/deploy-status)](https://app.netlify.com/sites/gatsby-personal-starter-blog/deploys)
+Gatsby로 블로그를 맹글어보고 있어요. ' ㅈ')
+-----
+[zerodice0.netlify.app](https://zerodice0.netlify.app/)으로 이동해주세요. 아직 Gatsby Starter Personal Website를 카피한 것 뿐이라, 별다른 게 없어요. 뭐, 그냥 그렇다구요.
 
-<img alt="screenshot" src="./screenshot.gif">
-
-This is the search-enabled version of Gatsby Personal Starter Blog!
-
-## 🚀 Quick start
-
-1.  **Create a Gatsby site.**
-
-    Use the Gatsby CLI to create a new site, specifying the blog starter.
-
-    ```sh
-    # create a new Gatsby site using the blog starter
-    gatsby new my-blog-starter https://github.com/thomaswang/gatsby-personal-starter-blog
-    ```
-
-1.  **Start developing.**
-
-    Navigate into your new site’s directory and start it up.
-
-    ```sh
-    cd my-blog-starter/
-    gatsby develop
-    ```
-
-1.  **Open the source code and start editing!**
-
-    Your site is now running at `http://localhost:8000`!
-
-    _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql)._
-
-    Open the `my-blog-starter` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
-
-## 🎓 Learning Gatsby
-
-Looking for more guidance? Full documentation for Gatsby lives [on the website](https://www.gatsbyjs.org/). Here are some places to start:
-
-- **For most developers, we recommend starting with our [in-depth tutorial for creating a site with Gatsby](https://www.gatsbyjs.org/tutorial/).** It starts with zero assumptions about your level of ability and walks through every step of the process.
-
-- **To dive straight into code samples, head [to our documentation](https://www.gatsbyjs.org/docs/).** In particular, check out the _Guides_, _API Reference_, and _Advanced Tutorials_ sections in the sidebar.
-
-## 📔 Learning Netlify CMS with Gatsby
-
-Start from [this point](https://www.gatsbyjs.org/docs/sourcing-from-netlify-cms/#authenticating-with-github) in the Gatsby documentation to finish the set up for your personal Netlify CMS with authentication.
-
-## 💫 Deploy
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/thomaswangio/gatsby-personal-starter-blog)
+다른 테마들은 여러가지 편리하게 세팅된 게 많았는데 말이죠. React를 써보고싶었기 때문에 [Gatsby 튜토리얼 페이지](https://www.gatsbyjs.com/tutorial/blog-netlify-cms-tutorial/)를 참조해서, [gatsby-personal-starter-blog](https://github.com/thomaswang/gatsby-personal-starter-blog)를 복사해왔어요. 사실 얘는 별거 안깔려있나보다 했는데, gatsby-config.js를 열어보니 뭔가 여러가지 플러그인이 깔려있긴하네요. 뭐, 스크립트 파일이랑 스타일만 만져볼 수 있음 상관없긴 하니까요. 아무튼 그렇습니다. README.md 내용을 날려버리고나니까 뭔가 쓰긴 써야겠는데, 딱히 쓸 말은 없어서 주저리주저리 써봤어요.
