@@ -1,9 +1,12 @@
 import React from "react"
 import PropTypes from "prop-types"
+import styled from "styled-components"
+
 
 export default function HTML(props) {
   return (
-    <html {...props.htmlAttributes}>
+    <html {...props.htmlAttributes}
+          style={{backgroundColor:"#e0e0e0"}}>
       <head>
         <meta charSet="utf-8" />
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
