@@ -8,7 +8,7 @@ const Body = styled.body`
 
 export default function HTML(props) {
   return (
-    <Html {...props.htmlAttributes}>
+    <html {...props.htmlAttributes}>
       <head>
         <meta charSet="utf-8" />
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
@@ -32,7 +32,7 @@ export default function HTML(props) {
         />
         {props.postBodyComponents}
       </Body>
-    </Html>
+    </html>
   )
 }
 
