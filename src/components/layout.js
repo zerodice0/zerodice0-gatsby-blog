@@ -23,9 +23,9 @@ function Layout(props) {
     margin-right: 4rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
-    background: #e0e0e0;
-    box-shadow:  13px 13px 45px #cecece,
-                -13px -13px 45px #ffffff;    
+    background: #ffffff;
+    box-shadow:  20px 20px 60px #d0d0d0d0,
+                -20px -20px 60px #ffffff;    
   `
 
   const HeaderTitle = styled.h1`

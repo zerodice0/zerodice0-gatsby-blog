@@ -2,11 +2,13 @@ import React from "react"
 import PropTypes from "prop-types"
 import styled from "styled-components"
 
+const Body = styled.body`
+  background-color: "#ffffff";  
+`
 
 export default function HTML(props) {
   return (
-    <html {...props.htmlAttributes}
-          style={{backgroundColor:"#e0e0e0"}}>
+    <Html {...props.htmlAttributes}>
       <head>
         <meta charSet="utf-8" />
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
@@ -21,7 +23,7 @@ export default function HTML(props) {
         />
         {props.headComponents}
       </head>
-      <body {...props.bodyAttributes}>
+      <Body {...props.bodyAttributes}>
         {props.preBodyComponents}
         <div
           key={`body`}
@@ -29,8 +31,8 @@ export default function HTML(props) {
           dangerouslySetInnerHTML={{ __html: props.body }}
         />
         {props.postBodyComponents}
-      </body>
-    </html>
+      </Body>
+    </Html>
   )
 }
 
